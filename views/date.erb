@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Date</title>
+    </head>
+    <body>
+        <h1>Today</h1>
+        <% d = Date.today %>
+        <% dn = d.strftime('%A')%>
+        <% dno = d.strftime('%d')%>
+        <% m = d.strftime('%B')%>
+        <% y = d.strftime('%Y')%>
+        <p><%= "The date is " + dn + ", " + m+ " " + dno + ", " + y %></p>
+    </body>
+</html>
